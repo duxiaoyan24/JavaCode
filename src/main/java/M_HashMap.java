@@ -8,14 +8,14 @@ public class M_HashMap {
     public static void main(String[] arg) {
     }
 
-    public static void Function1() {
+    public static void Travel1() {
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
             System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
         }
     }
 
-    public static void Function2() {
+    public static void Travel2() {
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         //遍历map中的键
         for (Integer key : map.keySet()) {
@@ -27,7 +27,7 @@ public class M_HashMap {
         }
     }
 
-    public static void Function3() {
+    public static void Travel3() {
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         for (Integer key : map.keySet()) {
             // 从键取值是耗时的
